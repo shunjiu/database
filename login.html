@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <title>Sign In</title>
+    <link href="tmp/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="tmp/components-rounded.min.css" rel="stylesheet" id="style_components" type="text/css" />
+    <link href="tmp/login-2.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="login">
+
+    <div class="content">
+        <form class="login-form" action="login.php" method="post">
+            <div class="form-group">
+                <label class="control-label visible-ie8 visible-ie9">Username</label>
+                <input class="form-control form-control-solid placeholder-no-fix" type="text" autocomplete="off" placeholder="Username" name="username" value="" required />
+            </div>
+
+            <div class="form-group">
+                <label class="control-label visible-ie8 visible-ie9">Password</label>
+                <input class="form-control form-control-solid placeholder-no-fix" type="password" autocomplete="off" placeholder="Password" name="password" value="" required />
+                <input type="hidden" name="_token" value="2qKc8l6zbnZaNZxOSv9ay9SE6mtuOQyI3DwqKUFC" />
+            </div>
+
+            <div class="form-actions">
+                <div class="pull-right forget-password-block">
+                    <a href="resetPassword.html" class="forget-password">Forget Password</a>
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn red btn-block uppercase">Sign In</button>
+            </div>
+
+            <div class="create-account">
+                <p>
+                    <a href="register.html" class="btn-primary btn">Sign Up</a>
+                </p>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
